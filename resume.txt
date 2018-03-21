@@ -1,0 +1,92 @@
+Garrett Beatty
+beattyg2@tcnj.edu
+
+856-905-6074 http://www.gbeatty.com
+
+Education
+
+·
+
+The College of New Jersey Bachelor of Science in Computer
+
+Science
+
+Ewing, NJ Aug. 2015 - May 2019
+
+­ Advanced Courses: Natural Language Processing, High Performance Computing, Combinatorics
+
+Work Experience
+
+·
+
+The College of New Student Researcher
+
+Jersey
+
+Ewing, NJ Jan. 2017 - Aug. 2017
+
+­ Designed a machine learning infrastructure with a team of 5 students and faculty in Python using
+
+machine learning and statistical analysis libraries such as scikit-learn, numpy, pandas, and matplotlib.
+
+­ Improved the speed of the infrastructure by 95% by adding support for parallel processing on the
+
+High Performance Cluster (HPC).
+
+­ Researched and integrated active learning stopping methods into a machine learning infrastructure in
+
+order to reduce annotation cost within the Natural Language Processing (NLP) field.
+
+·
+
+Comcast Software Engineering
+
+Intern
+
+Philadelphia, PA Jun. 2016 - Aug. 2016
+
+­ Increased the efficiency of the Quality Assurance team by creating a Node.js application that
+
+automatically generates unit testing reports, which can be filtered by date, device type, operating
+
+system, etc.
+
+­ Collaborated with another intern to create a web application in C#, HTML, and Javascript that
+
+connects to an SQL database to retrieve customer session information.
+
+Languages/Skills
+· Proficient: Python, Java · Past Experience: C, C++, C#, SQL, Ruby, PHP, Javascript, Node.js, Perl, MATLAB · Tools: Git, SLURM, Jenkins, UNIX
+Projects
+
+·
+
+Google Photos Location Visualizer googlephotosmapplotter.gbeatty.com
+
+­ Created a web application that allows users to visualize their photos on Google Maps based on their
+
+geo-location metadata.
+
+­ Python, Flask, Google Maps API, Google Picasa API
+
+·
+
+ASL Translation asl.gbeatty.com
+
+Program
+
+­ Currently creating a program that uses a Convolutional Neural Network to translate American Sign
+
+Language fingerspelling to text in real-time from a user's webcam.
+
+­ Python, OpenCV, Keras
+
+Publications
+"Impact of Batch Size on Stopping Active Learning for Text Classification", Proceedings of the 2018 IEEE 12th International Conference on Semantic Computing (ICSC), Laguna Hills, CA, 2018.
+
+Leadership and Activities
+· President: TCNJ Table Tennis Club
+Second Languages
+· 3 Semesters: American Sign Language
+
+
