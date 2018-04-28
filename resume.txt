@@ -1,91 +1,77 @@
 Garrett Beatty
-beattyg2@tcnj.edu
 
-856-905-6074 http://www.gbeatty.com
+856-905-6074 · beattyg2@tcnj.edu · github.com/GarrettBeatty · linkedin.com/in/garrett-beatty · gbeatty.com
 
 Education
 
-·
-
-The College of New Jersey Bachelor of Science in Computer
-
-Science
+· The College of New Jersey Bachelor of Science in Computer Science
 
 Ewing, NJ Aug. 2015 - May 2019
 
-­ Advanced Courses: Natural Language Processing, High Performance Computing, Combinatorics
-
 Work Experience
 
-·
+· Lockheed Martin
 
-The College of New Student Researcher
+Mount Laurel, NJ
 
-Jersey
+Software Engineering Intern
 
-Ewing, NJ Jan. 2017 - Aug. 2017
+Jun. 2018 - Aug. 2018
 
-­ Designed a machine learning infrastructure with a team of 5 students and faculty in Python using
+­ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut purus elit, vestibulum ut, placerat ac, adipiscing vitae,
 
-machine learning and statistical analysis libraries such as scikit-learn, numpy, pandas, and matplotlib.
+felis ut, placerat ac, adipiscing vitae, felis.
 
-­ Improved the speed of the infrastructure by 95% by adding support for parallel processing on the
+­ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut purus elit, vestibulum ut, placerat ac, adipiscing vitae,
 
-High Performance Cluster (HPC).
+felis ut, placerat ac, adipiscing vitae, felis.
 
-­ Researched and integrated active learning stopping methods into a machine learning infrastructure in
+· The College of New Jersey
 
-order to reduce annotation cost within the Natural Language Processing (NLP) field.
+Ewing, NJ
 
-·
+Student Researcher - Machine Learning
 
-Comcast Software Engineering
+Jan. 2017 - Dec. 2017
 
-Intern
+­ Designed a machine learning infrastructure with a team of 5 students and faculty in Python using machine learning
 
-Philadelphia, PA Jun. 2016 - Aug. 2016
+and statistical analysis libraries such as scikit-learn, numpy, pandas, and matplotlib.
 
-­ Increased the efficiency of the Quality Assurance team by creating a Node.js application that
+­ Improved the speed of the infrastructure by 95% by adding support for parallel processing on the High Performance
 
-automatically generates unit testing reports, which can be filtered by date, device type, operating
+Cluster (HPC).
 
-system, etc.
+· Comcast
 
-­ Collaborated with another intern to create a web application in C#, HTML, and Javascript that
+Philadelphia, PA
 
-connects to an SQL database to retrieve customer session information.
+Software Engineering Intern
 
-Languages/Skills
-· Proficient: Python, Java · Past Experience: C, C++, C#, SQL, Ruby, PHP, Javascript, Node.js, Perl, MATLAB · Tools: Git, SLURM, Jenkins, UNIX
+Jun. 2016 - Aug. 2016
+
+­ Increased the efficiency of the Quality Assurance team by creating a Node.js application that automatically generates
+
+unit testing reports, which can be filtered by date, device type, operating system, etc.
+
+­ Collaborated with another intern to create a web application in C#, HTML, and Javascript that connects to an SQL
+
+database to retrieve customer session information.
+
 Projects
 
-·
+· Android Application - "arXiv eXplorer" arxiv.gbeatty.com ­ Published an Android application with over 200 downloads that allows users to browse, search, and download scientific papers from arxiv.org. ­ Java, Butterknife, OkHttp, Sugar ORM, arXiv API, Travis CI, Fastlane
 
-Google Photos Location Visualizer googlephotosmapplotter.gbeatty.com
+· Google Photos Location Visualizer googlephotosmapplotter.gbeatty.com ­ Created a web application that allows users to visualize their photos on Google Maps based on their geo-location metadata. ­ Python, Flask, Google Maps API, Google Picasa API
 
-­ Created a web application that allows users to visualize their photos on Google Maps based on their
-
-geo-location metadata.
-
-­ Python, Flask, Google Maps API, Google Picasa API
-
-·
-
-ASL Translation asl.gbeatty.com
-
-Program
-
-­ Currently creating a program that uses a Convolutional Neural Network to translate American Sign
-
-Language fingerspelling to text in real-time from a user's webcam.
-
-­ Python, OpenCV, Keras
-
+Skills
+· Proficient: Python, Java · Past Experience: C, C++, C#, SQL, Ruby, PHP, Javascript, Node.js, Perl, MATLAB · Tools: Git, Jenkins, Travis CI, Linux/UNIX, SLURM, Fastlane · Libraries/Frameworks: scikit-learn, numpy, pandas, matplotlib, tflearn, OpenCV, Flask, Butterknife, OkHtttp
 Publications
 "Impact of Batch Size on Stopping Active Learning for Text Classification", Proceedings of the 2018 IEEE 12th International Conference on Semantic Computing (ICSC), Laguna Hills, CA, 2018.
 
-Leadership and Activities
-· President: TCNJ Table Tennis Club
+Activities
+· Co-Founder/Vice President: TCNJ Table Tennis Club · Member: TCNJ Association for Computing Machinery · Member: TCNJ Chess Club
+
 Second Languages
 · 3 Semesters: American Sign Language
 

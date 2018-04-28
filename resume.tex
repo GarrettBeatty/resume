@@ -6,7 +6,7 @@
 %
 % This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/ or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA.
 
-\documentclass[letterpaper,11pt]{article}
+\documentclass[letterpaper,10pt]{article}
 
 %-----------------------------------------------------------
 \usepackage[empty]{fullpage}
@@ -30,30 +30,30 @@
 %Custom commands
 \newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
 \newcommand{\resheading}[1]{{\large \colorbox{mygrey}{\begin{minipage}{\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
-\newcommand{\ressubheading}[4]{
-\begin{tabular*}{7.0in}{l@{\extracolsep{\fill}}r}
-		\textbf{#1} & #2 \\
-		\textit{#3} & \textit{#4} \\
-\end{tabular*}\vspace{-6pt}}
-%-----------------------------------------------------------
-
+\newcommand{\ressubheading}[4]{%
+  \item\textbf{#1} \hfill #2\null\\
+  \textit{#3} \hfill \textit{#4}%
+  \vspace{-7pt}
+}%-----------------------------------------------------------
 
 \begin{document}
-%\begin{center}
-%\textbf{\Huge Garrett Beatty}
-%\end{center}
-%\makebox[\linewidth][s]{856-905-6074 beattyg2@tcnj.edu github.com/GarrettBeatty linkedin.com/in/garrett-beatty gbeatty.com}
-\begin{tabular*}{7.5in}{l@{\extracolsep{\fill}}r}
-\textbf{Garrett Beatty}  & \href{http://www.gbeatty.com}{gbeatty.com}\\
-\href{mailto:beattyg2@tcnj.edu}{beattyg2@tcnj.edu} &  \href{http://www.github.com/GarrettBeatty}{github.com/GarrettBeatty} \\
-856-905-6074 & \href{http://www.linkedin.com/in/garrett-beatty}{linkedin.com/in/garrett-beatty}
-\end{tabular*}
-
+\begin{center}
+\textbf{\Huge Garrett Beatty} \\
 \vspace{0.05in}
+856-905-6074 $\bullet$ beattyg2@tcnj.edu $\bullet$ github.com/GarrettBeatty $\bullet$ linkedin.com/in/garrett-beatty $\bullet$ gbeatty.com
+\end{center}
+%\makebox[\linewidth][s]{856-905-6074 beattyg2@tcnj.edu github.com/GarrettBeatty linkedin.com/in/garrett-beatty gbeatty.com}
+%\begin{tabular*}{7.5in}{l@{\extracolsep{\fill}}r}
+%\textbf{Garrett Beatty}  & \href{http://www.gbeatty.com}{gbeatty.com}\\
+%\href{mailto:beattyg2@tcnj.edu}{beattyg2@tcnj.edu} &  \href{http://www.github.com/GarrettBeatty}{github.com/GarrettBeatty} \\
+%856-905-6074 & \href{http://www.linkedin.com/in/garrett-beatty}{linkedin.com/in/garrett-beatty}
+%\end{tabular*}
+
+\vspace{-0.05in}
 
 \resheading{Education}
 \begin{itemize}
-\item
+
 	\ressubheading{The College of New Jersey}{Ewing, NJ}{Bachelor of Science in Computer Science}{Aug. 2015 - May 2019}
 	%\begin{itemize}
 		%\resitem {3.40 GPA}
@@ -64,22 +64,19 @@
 
 \resheading{Work Experience}
 \begin{itemize}
+\ressubheading{Lockheed Martin}{Mount Laurel, NJ}{Software Engineering Intern}{Jun. 2018 - Aug. 2018}
+	\begin{itemize}
+		\resitem{Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut purus elit, vestibulum ut, placerat ac, adipiscing vitae, felis ut, placerat ac, adipiscing vitae, felis.}
+		\resitem{Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut purus elit, vestibulum ut, placerat ac, adipiscing vitae, felis ut, placerat ac, adipiscing vitae, felis.}
+		\end{itemize}	
 
-\item
-	\ressubheading{Lockheed Martin}{Mount Laurel, NJ}{Software Engineering Intern}{Jun. 2018 - Aug. 2018}
-	%\begin{itemize}
-		%\resitem{Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut purus elit, vestibulum ut, placerat ac, adipiscing vitae, felis ut, placerat ac, adipiscing vitae, felis.}
-		%\resitem{Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut purus elit, vestibulum ut, placerat ac, adipiscing vitae, felis ut, placerat ac, adipiscing vitae, felis.}
-	%	\end{itemize}	
-\item
 	\ressubheading{The College of New Jersey}{Ewing, NJ}{Student Researcher - Machine Learning}{Jan. 2017 - Dec. 2017}
 	\begin{itemize}
 		\resitem{Designed a machine learning infrastructure with a team of 5 students and faculty in Python using machine learning and statistical analysis libraries such as scikit-learn, numpy, pandas, and matplotlib.}
 		\resitem{Improved the speed of the infrastructure by 95\% by adding support for parallel processing on the High Performance Cluster (HPC).}
 		%\resitem{Researched and integrated active learning stopping methods into a machine learning infrastructure in order to reduce annotation cost within the Natural Language Processing (NLP) field.}
 		\end{itemize}
-		
-\item
+
 	\ressubheading{Comcast}{Philadelphia, PA}{Software Engineering Intern}{Jun. 2016 - Aug. 2016}
 	\begin{itemize}
 		\resitem{Increased the efficiency of the Quality Assurance team by creating a Node.js application that automatically generates unit testing reports, which can be filtered by date, device type, operating system, etc.}
@@ -89,14 +86,14 @@
 
 \resheading{Projects}
 \begin{itemize}
-\item
+
 	\ressubheading{Android Application - ``arXiv eXplorer"}{}{\href{http://arxiv.gbeatty.com}{arxiv.gbeatty.com}}{}
 	\begin{itemize}
 		\resitem{Published an Android application with over 200 downloads that allows users to browse, search, and download scientific papers from \href{http://arxiv.org}{arxiv.org}.}
 		\resitem{Java, Butterknife, OkHttp, Sugar ORM, arXiv API, Travis CI, Fastlane}
 	\end{itemize}
 
-\item
+
 	\ressubheading{Google Photos Location Visualizer}{}{\href{http://googlephotosmapplotter.gbeatty.com}{googlephotosmapplotter.gbeatty.com}}{}
 	\begin{itemize}
 		\resitem{Created a web application that allows users to visualize their photos on Google Maps based on their geo-location metadata.}
@@ -116,7 +113,7 @@
 	\resitem{\textbf{Proficient:} Python, Java}
 	\resitem{\textbf{Past Experience:} C, C++, C\#, SQL, Ruby, PHP, Javascript, Node.js, Perl, MATLAB}
 	\resitem{\textbf{Tools:} Git, Jenkins, Travis CI, Linux/UNIX, SLURM, Fastlane}
-	%\resitem{\textbf{Libraries/Frameworks:} scikit-learn, numpy, pandas, matplotlib, tflearn, OpenCV, Flask, Butterknife, OkHtttp}
+	\resitem{\textbf{Libraries/Frameworks:} scikit-learn, numpy, pandas, matplotlib, tflearn, OpenCV, Flask, Butterknife, OkHtttp}
 	\end{itemize}
 
 \resheading{Publications}
@@ -125,7 +122,6 @@
 \emph{Proceedings of the 2018 IEEE 12th International Conference on Semantic Computing (ICSC), Laguna Hills, CA, 2018.}
 \end{description}
 %\fi
-\end{document}
 
 \resheading{Activities}
 	\begin{itemize}
@@ -133,6 +129,7 @@
 	\resitem{\textbf{Member:} TCNJ Association for Computing Machinery}
 	\resitem{\textbf{Member:} TCNJ Chess Club}
 	\end{itemize}
+
 \vspace{.05in}
 \resheading{Second Languages}
 	\begin{itemize}
