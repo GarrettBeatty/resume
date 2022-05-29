@@ -28,7 +28,7 @@ jobs:
         run: |
           git config --global user.email "garrett@beatty.codes"
           git config --global user.name "Garrett Beatty"
-          git clone https://.:${{ secrets.GITHUB_TOKEN }}@github.com/GarrettBeatty/garrett.beatty.codes target
+          git clone https://.:${{ secrets.PAT }}@github.com/GarrettBeatty/garrett.beatty.codes target
           rm -f target/static/GarrettBeattyResume.pdf
           cp GarrettBeattyResume.pdf target/static/GarrettBeattyResume.pdf
           cd target
