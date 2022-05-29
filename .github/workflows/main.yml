@@ -28,7 +28,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: |
-          git clone https://.:${{ secrets.GITHUB_TOKEN }}@github.com/garrett.beatty.codes target
+          git clone https://.:${{ secrets.GITHUB_TOKEN }}@github.com/GarrettBeatty/garrett.beatty.codes target
           rm -f target/static/GarrettBeattyResume.pdf
           cp GarrettBeattyResume.pdf target/static/GarrettBeattyResume.pdf
           cd target
