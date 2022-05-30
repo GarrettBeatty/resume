@@ -33,5 +33,5 @@ jobs:
           cp GarrettBeattyResume.pdf target/static/GarrettBeattyResume.pdf
           cd target
           git add .
-          git diff-index --quiet HEAD || git commit -m "Automatic publish from github.com/project"
+          git diff-index --quiet HEAD || git commit -m "Automatic publish of Resume update"
           git push origin master
