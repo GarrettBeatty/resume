@@ -33,7 +33,7 @@ jobs:
       # Copy resume and push to target repo
       - name: Update resume in target repo
         run: |
-          cp GarrettBeattyResume.pdf target/static/GarrettBeattyResume.pdf
+          cp GarrettBeattyResume.pdf target/public/GarrettBeattyResume.pdf
           cd target
           git config user.email "garrett@beatty.codes"
           git config user.name "Garrett Beatty"
