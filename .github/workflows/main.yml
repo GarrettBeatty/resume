@@ -23,15 +23,20 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
+      # Checkout the target repository
+      - uses: actions/checkout@v3
+        with:
+          repository: GarrettBeatty/garrett.beatty.codes
+          token: ${{ secrets.PAT }}
+          path: target
+
+      # Copy resume and push to target repo
+      - name: Update resume in target repo
         run: |
-          git config --global user.email "garrett@beatty.codes"
-          git config --global user.name "Garrett Beatty"
-          git clone https://.:${{ secrets.PAT }}@github.com/GarrettBeatty/garrett.beatty.codes target
-          rm -f target/static/GarrettBeattyResume.pdf
           cp GarrettBeattyResume.pdf target/static/GarrettBeattyResume.pdf
           cd target
+          git config user.email "garrett@beatty.codes"
+          git config user.name "Garrett Beatty"
           git add .
           git diff-index --quiet HEAD || git commit -m "Automatic publish of Resume update"
-          git push origin master
+          git push
